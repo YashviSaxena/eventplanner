@@ -24,7 +24,7 @@ const Hero = () => {
         Check our past events<MdArrowOutward className="inline-block"/>
       </span>
     </h3>
-    <DetailBox/>
+    <DetailBox />
 
     </div>
   );

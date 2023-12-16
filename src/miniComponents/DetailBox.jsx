@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-const DetailBox = () => {
+const detailBox = () => {
   return (
     <div>
             <ul className='flex justify-center text-center max-w-sm items-center absolute top-96 bg-white p-2 rounded-md'>
@@ -14,4 +14,4 @@ const DetailBox = () => {
   )
 }
 
-export default DetailBox
+export default detailBox
