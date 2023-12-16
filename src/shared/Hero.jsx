@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { MdArrowOutward } from "react-icons/md";
-import DetailBox from "../miniComponents/detailBox";
+import DetailBox from "../miniComponents/DetailBox";
 
 const Hero = () => {
   return (
