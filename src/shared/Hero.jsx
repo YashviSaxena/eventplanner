@@ -25,7 +25,7 @@ const Hero = () => {
       </span>
     </h3>
     <DetailBox />
-
+     <p className="text-orange-300 underline absolute bottom-10 right-5 cursor-pointer">Make Reservations < MdArrowOutward className="inline-block"/></p>
     </div>
   );
 };
