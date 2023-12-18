@@ -6,7 +6,11 @@ const Navbar = () => {
     <div className='flex justify-around items-center h-16 text-cente text-sm absolute top-0 left-0 right-0 bg-transparent p-4 text-white'>
       <ul>
         <li>
-          <Link to="/">Logo</Link>
+        <a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-black md:text-2xl" aria-label="logo">
+                <div className='w-2 h-2 bg-black rounded-full '></div>
+  
+                BeEventful
+              </a>
         </li>
       </ul>
       <ul className='flex items-center'>

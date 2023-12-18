@@ -3,6 +3,8 @@ import Hero from '../shared/Hero'
 import Portfolio from '../miniComponents/Portfolio'
 import Serve from '../miniComponents/Serve'
 import Testimonials from './Testimonials'
+import Stats from './Stats'
+import Footer from '../shared/Footer'
 
 
 
@@ -13,6 +15,8 @@ const Home = () => {
        <Portfolio/>
        <Serve/>
        <Testimonials/>
+       <Stats/>
+       <Footer/>
     </div>
   )
 }

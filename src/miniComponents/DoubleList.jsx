@@ -1,10 +1,15 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import image from '../assets/birthday.jpg'
 
 const DoubleList = () => {
+
   return (
     <div className=' w-screen'>
-        <div className='flex justify-end mr-20'>
+        <div className='flex justify-end mr-20 overflow-hidden'>
+        <div
+          className='flex transition-transform ease-in-out'
+          style={{ transform: `translateY(${listsContainerTransform}%)` }}
+        >
             <ul className='mr-2'>
                 <li className='w-52 bg-gray-200 p-3 rounded-md mb-2'>
                     <div className='flex justify-start items-center mb-3 '>
@@ -67,8 +72,11 @@ const DoubleList = () => {
                 
             </ul>
         </div>
+        </div>
     </div>
   )
 }
 
 export default DoubleList
+
+
